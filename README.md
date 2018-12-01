@@ -54,14 +54,15 @@ The user interface looks like:
  
 Error number |  Description
 ---- | -----
-Error 12 | 对类型不是char、int、float、boolean的变量进行定义的赋值
-Error 35 | 使用了未定义的变量名
-Error 38 | 对类型不是char、int、float、bool的变量进行write操作
-Error 40 | 使用系统未定义关键字进行声明
-Error 50 | 对负数进行sqrt
-Error 51 | 对除了boolean、char、int、float以外的类型进行输入
-Error 52 | 对除了int、float之外的类型进行取负、相加、相乘、相减
-Error 53 | 进行了类型不同且不能强制类型转换的赋值
-Error 54 | 对非整数进行取余、取逆、求平方根
-Error 55 | 对非boolean类型进行and not or操作                                     
-Error 56 | boolrean类型赋值非true或false   
+12 | 对类型不是char、int、float、boolean的变量进行定义的赋值
+35 | 使用了未定义的变量名
+38 | 对类型不是char、int、float、bool的变量进行write操作
+40 | 使用系统未定义关键字进行声明
+41 | 数组访问越界
+50 | 对负数进行sqrt
+51 | 对除了boolean、char、int、float以外的类型进行输入
+52 | 对除了int、float之外的类型进行取负、相加、相乘、相减
+53 | 进行了类型不同且不能强制类型转换的赋值
+54 | 对非整数进行取余、取逆、求平方根
+55 | 对非boolean类型进行and not or操作                                     
+56 | boolrean类型赋值非true或false   
