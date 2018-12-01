@@ -2,6 +2,9 @@
 
 ### Description
 A x0 language compiler with UI, written in C and PyQt, using Lex &amp; Yacc tool. The x0 language syntax is like C mixed with PL/0.
+You can generate a executable file *demo* by running the *build* file in the *code* folder.
+However, I don't upload the yacc file *x0.y* since the course has not been finished.
+Run file *x0compiler.py*, and you can see the user interface.
 
 ### UI
 You can easily find how to build and run a file written in x0 by UI.
