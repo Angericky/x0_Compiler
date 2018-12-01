@@ -54,11 +54,16 @@ The user interface looks like:
  
 Error number |  Description
 ---- | -----
+11 | 调用函数时使用一个未声明过的变量
 12 | 对类型不是char、int、float、boolean的变量进行定义的赋值
+15 | 调用非函数：call一个不是procedure类型的变量
 35 | 使用了未定义的变量名
+36 | read proc类型的变量
+37 | 连续read proc类型的变量
 38 | 对类型不是char、int、float、bool的变量进行write操作
 40 | 使用系统未定义关键字进行声明
 41 | 数组访问越界
+44 | 对非数组进行x[]形式的操作
 50 | 对负数进行sqrt
 51 | 对除了boolean、char、int、float以外的类型进行输入
 52 | 对除了int、float之外的类型进行取负、相加、相乘、相减
