@@ -1,0 +1,15 @@
+//char_type_test
+main{
+	char a = '3',b ='5';
+	char c[3];
+	int d[4];
+	write a;
+	write b;
+	c[1] = '4';
+	c[2] = 'A';
+	write c[2];
+	d[2] = 2;
+	d[3] = 3;
+	write d[2];
+	write d[3];
+}

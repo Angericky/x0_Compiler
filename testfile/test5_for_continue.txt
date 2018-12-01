@@ -1,0 +1,12 @@
+main{
+	//for_continue_test
+	int a,b=1;
+	for(a=3;a<10;a++){
+		if(b>4){
+			b=6;
+			continue;
+		}
+		b++;
+	}
+	write b;
+}

@@ -1,0 +1,153 @@
+x0Compiler
+{
+	border-color: #282828;
+	background-color: #181818;
+	color: #DFDFDF;
+}
+x0Compiler *
+{
+	color: #FDFDFD;
+}
+x0Compiler #horizontalWidget
+{
+	background-color: QColor(50,51,45);
+}
+x0Compiler QToolBar
+{
+	background-color: rgba(89,89,89,80%);
+	border-color: #707070;
+}
+x0Compiler QToolBar *
+{
+	alternate-background-color: #585858;
+	font-size: 11px;
+}
+x0Compiler QToolBar > QAction:hover
+{
+	background-color: #CCCCCC;
+	border-color: #FFFFFF;
+}
+x0Compiler #centralwidget
+{
+	border-top-color: #6D6D6D;
+	background-color: #5B5B5B;
+}
+x0Compiler #codeScroll *
+{
+	background-color: QColor(50,51,45);
+	selection-color: #111111;
+	selection-background-color: #686868;
+}
+x0Compiler #pcodeScroll *
+{
+	background-color: QColor(50,51,45);
+	border-width: 5px;
+	border-color: #707070;
+}
+x0Compiler #statusBarFrame
+{
+	background-color: #555555;
+	border-top-color: #7D7D7D;
+	border-width: 1px;
+}
+x0Compiler #linelabel
+{
+	background-color: #444444;
+	color: #AAAAAA;
+	padding-top: 1px;
+}
+x0Compiler QTabWidget
+{
+	background-color: #000000;
+	border-bottom-color: #5B5B5B;
+}
+x0Compiler #outputMsg > QTabBar
+{
+	background-color: #303030;
+	border-bottom-color: #5B5B5B;
+}
+x0Compiler QTabWidget > QWidget 
+{
+	/*background-color: #545454;*/
+	background-color: #303030;
+	selection-background-color: #686578;
+	border-left-color: #101010;
+	border-right-color: #101010;
+	border-bottom-color: #545454;
+	border-top-color: #5B5B5B;
+	color: #333333;
+}
+x0Compiler QTabWidget::tab-bar{
+
+	background: transparent;
+}
+x0Compiler #tableWidget >
+{
+	background-color: QColor(50,51,45);
+	selection-background-color: #AAAAAA;
+}
+x0Compiler #errorMsgTable
+{
+	background-color: #303030;
+	selection-background-color: #686578;
+}
+QTabWidget::pane{
+	background-color: #C2C7CB;
+}
+x0Compiler #label
+{
+	margin-left: 20px;
+}
+x0Compiler #outputLabel
+{
+	background-color: QColor(50,51,45);
+	selection-background-color: #686578;
+	padding: 5px;
+}
+x0Compiler #inputEdit
+{
+	background-color: #444444;
+	border-color: 3px solid #000000;
+	selection-background-color: #686578;
+}
+x0Compiler QPushButton{
+	background-color: #BBBBBB;
+	color: #000000;
+	border: 2px groove gray;
+	border-radius: 8px;
+}
+x0Compiler QPushButton:pressed{
+	background-color: #C6E2FF;
+	border-style: inset;
+	padding-left: 2px;
+	padding-top: 2px;
+}
+QScrollBar
+{
+    width:10px;
+    background:rgb(37,37,37);
+    padding:8px,8px,8px,8px;
+}
+QScrollBar::handle
+{
+    width:8px;
+    background:rgb(73,73,73);
+    border-radius:5px;
+    min-height:20;
+}
+QScrollBar::handle:hover
+{
+    background:rgb(75,75,75);
+}
+QScrollBar::add-line
+{
+    background:rgba(0,0,0,0%)
+}
+QScrollBar::sub-line
+{
+    background:rgba(0,0,0,0%);
+}
+QScrollBar::add-page,QScrollBar::sub-page
+{
+    background:rgb(39,39,39);
+}

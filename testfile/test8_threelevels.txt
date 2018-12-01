@@ -1,0 +1,32 @@
+//test_threelevels and call by value
+main{
+	/*this is a simple example*/
+    int a,c;
+	procedure p(int d,int e){
+		procedure q(){
+			procedure r(){
+				procedure s(){
+					a = a - 1;
+					write a;
+					if(a > 0)
+						p();
+				};
+				s();
+			};
+			r();
+		};
+		q();
+		write e;
+	};
+	procedure f(){
+		int b[5][3], g = 5;
+		b[2][0] = 2;
+		b[1][1] = 1;
+		p(b[2][0],b[1][1]);
+		return g;
+	};
+	a = 1;
+	c = f();
+	write c;
+	write a;
+}

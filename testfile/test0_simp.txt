@@ -1,0 +1,10 @@
+//test_threelevels
+main{
+	/*this is a simple example*/
+
+	int d[3];
+
+	read  d[2],d[1];
+	write d[1];
+	write d[2];
+}

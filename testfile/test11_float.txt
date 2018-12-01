@@ -1,0 +1,13 @@
+//floattype_test
+main{
+	float a = 1.1, b = 2.0;
+	int c = 3;
+	a = a + b;
+	write a;
+	a = a - c;
+	write a;
+	c = b * c;
+	write c;
+	b = b / c;
+	write b;
+}

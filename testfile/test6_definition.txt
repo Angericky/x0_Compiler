@@ -1,0 +1,9 @@
+main{
+	//单语句连续定义测试及单语句连续声明测试
+	const a=4,b=5;
+	int c=4;
+	int d[3],e[5];
+	write a;
+	write b;
+	write c;
+}

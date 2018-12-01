@@ -1,0 +1,19 @@
+main{
+	int a=3;
+	int b=1;
+	for(a=1;a<6;a++){
+		switch(a){
+			case 1:
+				write 11;
+				break;
+			case 2:
+				write 22;
+				break;
+			case 3:
+				write 33;
+				break;
+			default:
+				write 3;
+		}
+	}
+}

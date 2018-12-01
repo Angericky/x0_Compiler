@@ -1,0 +1,9 @@
+main{
+	int a=3,b=5;
+	a=ODD(a);
+	write a;
+	b++;
+	write b;
+	b--;
+	write b;
+}

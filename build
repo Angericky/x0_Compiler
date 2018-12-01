@@ -1,0 +1,4 @@
+flex x0.l
+bison -dv x0.y -o x0.tab.c
+gcc lex.yy.c x0.tab.c -o demo
+./demo $1

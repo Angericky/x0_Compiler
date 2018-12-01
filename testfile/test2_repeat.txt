@@ -1,0 +1,10 @@
+main{
+	//repeat_until_test
+	int a=3;
+	repeat{
+		a++;
+	}until(a>10);
+	write a;
+
+
+}

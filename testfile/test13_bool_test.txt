@@ -1,0 +1,16 @@
+//bool_type_test
+main{
+	boolean a = false, b;
+	write a;
+	b = true;
+	write b;
+	a = !a;
+	write a;
+	a = a && b;
+	write a;
+	a = false;
+	a = a || b;
+	write a;
+	read b;
+	write b;
+}

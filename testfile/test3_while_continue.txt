@@ -1,0 +1,10 @@
+main{
+	//while_continue_test
+	int a=2;
+	while(a<10){
+		a++;
+		if(a>5)
+			continue;
+	}
+	write a;
+}

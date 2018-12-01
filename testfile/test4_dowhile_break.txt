@@ -1,0 +1,11 @@
+main{
+	//dowhile_break_test
+	int a=0;
+	do{
+		a++;
+		if(a>3)
+			break;
+	}
+	while(a<6);
+	write a;
+}

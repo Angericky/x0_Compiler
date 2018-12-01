@@ -1,0 +1,12 @@
+//prime_test
+main{
+	int i,k;
+	for(i = 2;i <= 100;i ++)  //range: 2-100
+	{
+		for(k = 2;k < i;k ++){
+			if(i % k == 0)	break;//if find a factor which is not 1 or itself, break the loop, where k<i
+		}
+		if(k == i)
+			write i;//when k=i, i is a prime,print it
+	}
+}

@@ -1,0 +1,278 @@
+//main{call_cx=0 cx=1
+
+	/***/
+    int a,
+kind=2
+c;
+kind=2
+
+	procedure p
+kind=5
+(
+function parenthheses
+int d,
+kind=2
+
+in stat
+
+here1
+
+,
+int e)
+kind=2
+
+in stat
+end
+
+4444
+call_cx=2 cx=5
+{
+		procedure q
+kind=5
+(
+function parenthheses
+)
+4444
+call_cx=6 cx=7
+{
+			procedure r
+kind=5
+(
+function parenthheses
+)
+4444
+call_cx=7 cx=8
+{
+				procedure s
+kind=5
+(
+function parenthheses
+)
+4444
+call_cx=8 cx=9
+{
+					a
+<number>3=0
+ = a - 1;
+					writewrite_stat
+ a;expression
+
+					if(a > 0)
+						p()here
+here
+;
+				};
+				s
+<number>3=0
+()here
+here
+;
+			};
+			r
+<number>3=0
+()here
+here
+;
+		};
+		q
+<number>3=2
+()here
+here
+;
+		writewrite_stat
+ e;expression
+
+	};
+	procedure f
+kind=5
+(
+function parenthheses
+)
+4444
+call_cx=38 cx=39
+{
+		int b[
+id = f
+5][
+decarray id = b
+3],
+kind=2
+ g =
+kind=2
+ 5;
+		b
+<number>3=0
+[2]
+read or write id = b
+lit
+[0]
+read or write id = b
+ =
+array idx = 10
+dis = 2
+ 2;
+		b[1]
+read or write id = b
+lit
+[1]
+read or write id = b
+ =
+array idx = 10
+dis = 1
+ 1;
+		p(b[2]
+read or write id = b
+lit
+[0]
+read or write id = b
+,
+array idx = 10
+dis = 2
+b[1]
+read or write id = b
+lit
+[1]
+read or write id = b
+)
+array idx = 10
+dis = 1
+here
+here
+;
+		return g;
+	};
+	a
+<number>3=0
+ = 1;
+	c = f()here
+here
+;
+	writewrite_stat
+ c;expression
+
+	writewrite_stat
+ a;expression
+
+}
+
+pcode:
+    0	  jmp	  0	 73
+    1	  jmp	  0	 75
+    2	  jmp	  0	 29
+    3	  sto	  0	  3
+    4	  sto	  0	  4
+    5	  jmp	  0	 33
+    6	  jmp	  0	 26
+    7	  jmp	  0	 23
+    8	  jmp	  0	  9
+    9	  ini	  0	  3
+   10	  lod	  4	  3
+   11	  lit	  0	  1
+   12	  opr	  0	  3
+   13	  sto	  4	  3
+   14	  lod	  4	  3
+   15	  opr	  0	 14
+   16	  opr	  0	 15
+   17	  lod	  4	  3
+   18	  lit	  0	  0
+   19	  opr	  0	 12
+   20	  jpc	  0	 22
+   21	  cal	  4	  2
+   22	  opr	  0	  0
+   23	  ini	  0	  3
+   24	  cal	  0	  9
+   25	  opr	  0	  0
+   26	  ini	  0	  3
+   27	  cal	  0	 23
+   28	  opr	  0	  0
+   29	  ini	  0	  5
+   30	  cpy	  1	  5
+   31	  cpy	  1	  7
+   32	  jmp	  0	  3
+   33	  cal	  0	 26
+   34	  lod	  0	  4
+   35	  opr	  0	 14
+   36	  opr	  0	 15
+   37	  opr	  0	  0
+   38	  jmp	  0	 42
+   39	  lit	  0	  5
+   40	  sto	  0	 18
+   41	  jmp	  0	 44
+   42	  ini	  0	 19
+   43	  jmp	  0	 39
+   44	  lit	  0	  2
+   45	  lit	  0	  5
+   46	  opr	  0	  4
+   47	  lit	  0	  0
+   48	  opr	  0	  2
+   49	  lit	  0	  2
+   50	 sto2	  0	  3
+   51	  lit	  0	  1
+   52	  lit	  0	  5
+   53	  opr	  0	  4
+   54	  lit	  0	  1
+   55	  opr	  0	  2
+   56	  lit	  0	  1
+   57	 sto2	  0	  3
+   58	  lit	  0	  2
+   59	  lit	  0	  5
+   60	  opr	  0	  4
+   61	  lit	  0	  0
+   62	  opr	  0	  2
+   63	 lod2	  0	  3
+   64	  lit	  0	  1
+   65	  lit	  0	  5
+   66	  opr	  0	  4
+   67	  lit	  0	  1
+   68	  opr	  0	  2
+   69	 lod2	  0	  3
+   70	  cal	  1	 29
+   71	  lod	  0	 18
+   72	  opr	  0	 20
+   73	  ini	  0	  5
+   74	  jmp	  0	  1
+   75	  lit	  0	  1
+   76	  sto	  0	  3
+   77	  cal	  0	 42
+   78	  sto	  0	  4
+   79	  lod	  0	  4
+   80	  opr	  0	 14
+   81	  opr	  0	 15
+   82	  lod	  0	  3
+   83	  opr	  0	 14
+   84	  opr	  0	 15
+   85	  opr	  0	  0
+********Start compiling x0 language.*********
+0
+1
+5
+0
+
+******End compiling x0 language.********
+
+table:
+    1          a      0	    0      3 	0
+    2          c      5	    0      4 	0
+    3          p   null	    0     29 	5	
+    4          d      2	    1      3 	0
+    5          e      1	    1      4 	0
+    6          q   null	    1     26 	3	
+    7          r   null	    2     23 	3	
+    8          s   null	    3      9 	3	
+    9          f   null	    0     42 	19	
+   10          b   null	    1      3 	5	3	
+   11          b   null	    1      4 	0
+   12          b   null	    1      5 	0
+   13          b   null	    1      6 	0
+   14          b   null	    1      7 	0
+   15          b   null	    1      8 	0
+   16          b      1	    1      9 	0
+   17          b   null	    1     10 	0
+   18          b   null	    1     11 	0
+   19          b   null	    1     12 	0
+   20          b      2	    1     13 	0
+   21          b   null	    1     14 	0
+   22          b   null	    1     15 	0
+   23          b   null	    1     16 	0
+   24          b   null	    1     17 	0
+   25          g      5	    1     18 	0

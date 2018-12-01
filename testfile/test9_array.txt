@@ -1,0 +1,12 @@
+main{
+	//multidimensional array test
+	int a[3][4][2];
+	a[1][0][1]=1;
+	write a[1][0][1];
+	a[1][2][2]=4;
+	write a[1][2][2];
+
+	//a[1][2]=2;
+	//write a[1][1];
+	//write a;
+}
