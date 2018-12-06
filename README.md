@@ -8,6 +8,17 @@ You can generate a executable file *demo* by running the *build* file in the *co
 However, I don't upload the yacc file *x0.y* since the course has not been finished.
 Run file *x0compiler.py*, and you can see the user interface.
 
+### Requirements
+flex & yacc(bison).
+You can install them by 2 commands.
+Read manuscript and install in http://dinosaur.compilertools.net/ .
+Any computer system is supported
+
+### Using Method Without UI
+run "./build [yourfilename]" in Terminal.
+e.g. build test0_simp.txt
+The type of file is unlimited.
+
 ### UI
 You can easily find how to build and run a file written in x0 by UI.
 The user interface looks like:
